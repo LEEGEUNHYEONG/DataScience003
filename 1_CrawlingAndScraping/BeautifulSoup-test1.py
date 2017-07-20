@@ -1,3 +1,6 @@
+#   Beautifualsoup4 사용을 위한 설치
+# pip3 install beautifulsoup4
+
 from bs4 import BeautifulSoup
 
 
