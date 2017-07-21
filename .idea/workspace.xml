@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d75a7bc-affb-4cba-91b7-bb2affb1a331" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_AdvancedScraping/OpenWeatherMap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_AdvancedScraping/naver-dollar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/csv-read.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/csv-write.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/excel-pandas.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/excel-read.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/excel-write.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/json-github.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/mysql.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/sqlite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_DataSource/xml-forecast.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +23,33 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DataScience003$naver_dollar.coverage" NAME="naver-dollar Coverage Results" MODIFIED="1500609888820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_AdvancedScraping" />
     <SUITE FILE_PATH="coverage/DataScience003$download_forecast_argv.coverage" NAME="download-forecast-argv Coverage Results" MODIFIED="1500263860540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
-    <SUITE FILE_PATH="coverage/DataScience003$BeautifulSoup_forecast.coverage" NAME="BeautifulSoup-forecast Coverage Results" MODIFIED="1500270416684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
+    <SUITE FILE_PATH="coverage/DataScience003$json_github.coverage" NAME="json-github Coverage Results" MODIFIED="1500616886314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
+    <SUITE FILE_PATH="coverage/DataScience003$yaml.coverage" NAME="yaml Coverage Results" MODIFIED="1500617434235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
+    <SUITE FILE_PATH="coverage/DataScience003$xml_forecast.coverage" NAME="xml-forecast Coverage Results" MODIFIED="1500616410471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
     <SUITE FILE_PATH="coverage/DataScience003$OpenWeatherMap.coverage" NAME="OpenWeatherMap Coverage Results" MODIFIED="1500604079907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_AdvancedScraping" />
+    <SUITE FILE_PATH="coverage/DataScience003$excel_write.coverage" NAME="excel-write Coverage Results" MODIFIED="1500621767655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
     <SUITE FILE_PATH="coverage/DataScience003$cr_getall.coverage" NAME="cr-getall Coverage Results" MODIFIED="1500278067576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
+    <SUITE FILE_PATH="coverage/DataScience003$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1500625609139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
+    <SUITE FILE_PATH="coverage/DataScience003$sqlite.coverage" NAME="sqlite Coverage Results" MODIFIED="1500623767173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
+    <SUITE FILE_PATH="coverage/DataScience003$Selenium_naver.coverage" NAME="Selenium-naver Coverage Results" MODIFIED="1500540925274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_AdvancedScraping" />
+    <SUITE FILE_PATH="coverage/DataScience003$excel.coverage" NAME="excel Coverage Results" MODIFIED="1500620471773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
+    <SUITE FILE_PATH="coverage/DataScience003$2_download_ip.coverage" NAME="2_download-ip Coverage Results" MODIFIED="1500263036560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
+    <SUITE FILE_PATH="coverage/DataScience003$selenium_login.coverage" NAME="selenium-login Coverage Results" MODIFIED="1500541072719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
+    <SUITE FILE_PATH="coverage/DataScience003$login_getmileage.coverage" NAME="login-getmileage Coverage Results" MODIFIED="1500541334641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
+    <SUITE FILE_PATH="coverage/DataScience003$csv_read2.coverage" NAME="csv-read2 Coverage Results" MODIFIED="1500618436177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
+    <SUITE FILE_PATH="coverage/DataScience003$csv_read2__1_.coverage" NAME="csv-read2 (1) Coverage Results" MODIFIED="1500618418017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
+    <SUITE FILE_PATH="coverage/DataScience003$BeautifulSoup_forecast.coverage" NAME="BeautifulSoup-forecast Coverage Results" MODIFIED="1500270416684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
+    <SUITE FILE_PATH="coverage/DataScience003$csv_write.coverage" NAME="csv-write Coverage Results" MODIFIED="1500618610211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
     <SUITE FILE_PATH="coverage/DataScience003$Requests.coverage" NAME="Requests Coverage Results" MODIFIED="1500541378667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_AdvancedScraping" />
     <SUITE FILE_PATH="coverage/DataScience003$download_ip.coverage" NAME="download-ip Coverage Results" MODIFIED="1500263169931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
     <SUITE FILE_PATH="coverage/DataScience003$SeleniumAndPantomJS.coverage" NAME="SeleniumAndPantomJS Coverage Results" MODIFIED="1500539459627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_AdvancedScraping" />
-    <SUITE FILE_PATH="coverage/DataScience003$Selenium_naver.coverage" NAME="Selenium-naver Coverage Results" MODIFIED="1500540925274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_AdvancedScraping" />
     <SUITE FILE_PATH="coverage/DataScience003$download_forecast.coverage" NAME="download-forecast Coverage Results" MODIFIED="1500263397792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
     <SUITE FILE_PATH="coverage/DataScience003$BeautifulSoup_test1.coverage" NAME="BeautifulSoup-test1 Coverage Results" MODIFIED="1500269750259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
+    <SUITE FILE_PATH="coverage/DataScience003$excel_pandas.coverage" NAME="excel-pandas Coverage Results" MODIFIED="1500622587718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
     <SUITE FILE_PATH="coverage/DataScience003$wiki_wow.coverage" NAME="wiki-wow Coverage Results" MODIFIED="1500275778429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
-    <SUITE FILE_PATH="coverage/DataScience003$2_download_ip.coverage" NAME="2_download-ip Coverage Results" MODIFIED="1500263036560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
     <SUITE FILE_PATH="coverage/DataScience003$download_png1.coverage" NAME="download-png1 Coverage Results" MODIFIED="1500263014176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataScience003$selenium_login.coverage" NAME="selenium-login Coverage Results" MODIFIED="1500541072719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
     <SUITE FILE_PATH="coverage/DataScience003$BeautifulSoup_naver.coverage" NAME="BeautifulSoup-naver Coverage Results" MODIFIED="1500271454929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_CrawlingAndScraping" />
-    <SUITE FILE_PATH="coverage/DataScience003$login_getmileage.coverage" NAME="login-getmileage Coverage Results" MODIFIED="1500541334641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
+    <SUITE FILE_PATH="coverage/DataScience003$csv_read.coverage" NAME="csv-read Coverage Results" MODIFIED="1500618481925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_DataSource" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -47,35 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Requests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/Requests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#52#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenWeatherMap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/OpenWeatherMap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="naver-dollar.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="naver-dollar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/naver-dollar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -83,22 +78,115 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeleniumAndPantomJS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/SeleniumAndPantomJS.py">
+      <file leaf-file-name="xml-forecast.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/xml-forecast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json-github.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/json-github.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csv-read.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/csv-read.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Selenium-naver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/Selenium-naver.py">
+      <file leaf-file-name="csv-write.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/csv-write.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel-read.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/excel-read.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel-write.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/excel-write.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel-pandas.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/excel-pandas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlite.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/sqlite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <marker date="1500623767153" expanded="true" signature="161:183" ph="/* items 테이블... " />
+                <marker date="1500623767153" expanded="true" signature="184:210" ph="DROP table i... " />
+                <marker date="1500623767153" expanded="true" signature="189:210" ph="drop table i... " />
+                <marker date="1500623767153" expanded="true" signature="213:227" ph="/* 테이블 생성 */... " />
+                <marker date="1500623767153" expanded="true" signature="228:319" ph="create table... items" />
+                <marker date="1500623767153" expanded="true" signature="322:336" ph="/* 데이터 입력 */... " />
+                <marker date="1500623767153" expanded="true" signature="337:506" ph="/* INSERT IN... " />
+                <marker date="1500623767153" expanded="true" signature="600:619" ph="SELECT * FRO... items" />
+                <marker date="1500623767153" expanded="true" signature="759:802" ph="INSERT INTO items... " />
+                <marker date="1500623767153" expanded="true" signature="1022:1064" ph="INSERT INTO items... " />
+                <marker date="1500623767153" expanded="true" signature="1161:1212" ph="SELECT * FRO... items" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_DataSource/mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <folding>
+                <marker date="1500625863748" expanded="true" signature="192:218" ph="DROP table i... " />
+                <marker date="1500625863748" expanded="true" signature="241:354" ph="CREATE TABLE... items" />
+                <marker date="1500625863748" expanded="true" signature="241:359" ph="CREATE TABLE... items" />
+                <marker date="1500625863748" expanded="true" signature="462:508" ph="INSERT INTO items... " />
+                <marker date="1500625863748" expanded="true" signature="462:515" ph="INSERT INTO items... " />
+                <marker date="1500625863748" expanded="true" signature="546:572" ph="SELECT * FRO... items" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,6 +254,19 @@
         <option value="$PROJECT_DIR$/2_AdvancedScraping/Requests.py" />
         <option value="$PROJECT_DIR$/2_AdvancedScraping/OpenWeatherMap.py" />
         <option value="$PROJECT_DIR$/2_AdvancedScraping/naver-dollar.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/xml-forecast.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/json-github.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/yaml.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/list-euckr" />
+        <option value="$USER_HOME$/AppData/Local/Temp/csv-read2.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/csv-read2.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/csv-read.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/csv-write.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/excel.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/excel-write.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/excel-pandas.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/sqlite.py" />
+        <option value="$PROJECT_DIR$/3_DataSource/mysql.py" />
       </list>
     </option>
   </component>
@@ -223,6 +324,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="3_DataSource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataScience003" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataScience003" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="2_AdvancedScraping" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -251,6 +366,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LGH\DataScience003\3_DataSource" />
       <recent name="D:\LGH\DataScience003" />
       <recent name="D:\LGH\DataScience003\1_CrawlingAndScraping" />
     </key>
@@ -267,97 +383,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.naver-dollar">
-    <configuration default="false" name="Requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mysql">
+    <configuration default="false" name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_AdvancedScraping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_DataSource" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataScience003" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_AdvancedScraping/Requests.py" />
+      <option name="SCRIPT_NAME" value="D:\LGH\DataScience003\3_DataSource\excel-read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="selenium-login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="excel-write" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Temp" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataScience003" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Temp/selenium-login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="login-getmileage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Temp" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataScience003" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Temp/login-getmileage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="OpenWeatherMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_AdvancedScraping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_DataSource" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataScience003" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_AdvancedScraping/OpenWeatherMap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_DataSource/excel-write.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="naver-dollar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="excel-pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_AdvancedScraping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_DataSource" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataScience003" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_AdvancedScraping/naver-dollar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_DataSource/excel-pandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sqlite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_DataSource" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataScience003" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_DataSource/sqlite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_DataSource" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataScience003" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_DataSource/mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -506,19 +622,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Requests" />
-      <item index="1" class="java.lang.String" itemvalue="Python.selenium-login" />
-      <item index="2" class="java.lang.String" itemvalue="Python.login-getmileage" />
-      <item index="3" class="java.lang.String" itemvalue="Python.OpenWeatherMap" />
-      <item index="4" class="java.lang.String" itemvalue="Python.naver-dollar" />
+      <item index="0" class="java.lang.String" itemvalue="Python.excel" />
+      <item index="1" class="java.lang.String" itemvalue="Python.excel-write" />
+      <item index="2" class="java.lang.String" itemvalue="Python.excel-pandas" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sqlite" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mysql" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.naver-dollar" />
-        <item index="1" class="java.lang.String" itemvalue="Python.OpenWeatherMap" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Requests" />
-        <item index="3" class="java.lang.String" itemvalue="Python.login-getmileage" />
-        <item index="4" class="java.lang.String" itemvalue="Python.selenium-login" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mysql" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sqlite" />
+        <item index="2" class="java.lang.String" itemvalue="Python.excel-pandas" />
+        <item index="3" class="java.lang.String" itemvalue="Python.excel-write" />
+        <item index="4" class="java.lang.String" itemvalue="Python.excel" />
       </list>
     </recent_temporary>
   </component>
@@ -549,16 +665,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24220374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47193348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328934" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -740,7 +857,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="e#18#33#0" expanded="true" />
+            <element signature="e#18#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -756,7 +873,7 @@
     <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/SeleniumAndPantomJS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -772,7 +889,7 @@
     <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/Requests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#52#67#0" expanded="true" />
           </folding>
@@ -782,7 +899,7 @@
     <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/OpenWeatherMap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -799,10 +916,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_AdvancedScraping/naver-dollar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/forecast.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/xml-forecast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/ropo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/yaml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/list-euckr.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/json-github.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/csv-read2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/csv-read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/csv-write.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/excel-read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/excel-write.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/excel-pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/sqlite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1500623767153" expanded="true" signature="161:183" ph="/* items 테이블... " />
+            <marker date="1500623767153" expanded="true" signature="184:210" ph="DROP table i... " />
+            <marker date="1500623767153" expanded="true" signature="189:210" ph="drop table i... " />
+            <marker date="1500623767153" expanded="true" signature="213:227" ph="/* 테이블 생성 */... " />
+            <marker date="1500623767153" expanded="true" signature="228:319" ph="create table... items" />
+            <marker date="1500623767153" expanded="true" signature="322:336" ph="/* 데이터 입력 */... " />
+            <marker date="1500623767153" expanded="true" signature="337:506" ph="/* INSERT IN... " />
+            <marker date="1500623767153" expanded="true" signature="600:619" ph="SELECT * FRO... items" />
+            <marker date="1500623767153" expanded="true" signature="759:802" ph="INSERT INTO items... " />
+            <marker date="1500623767153" expanded="true" signature="1022:1064" ph="INSERT INTO items... " />
+            <marker date="1500623767153" expanded="true" signature="1161:1212" ph="SELECT * FRO... items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_DataSource/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <marker date="1500625863748" expanded="true" signature="192:218" ph="DROP table i... " />
+            <marker date="1500625863748" expanded="true" signature="241:354" ph="CREATE TABLE... items" />
+            <marker date="1500625863748" expanded="true" signature="241:359" ph="CREATE TABLE... items" />
+            <marker date="1500625863748" expanded="true" signature="462:508" ph="INSERT INTO items... " />
+            <marker date="1500625863748" expanded="true" signature="462:515" ph="INSERT INTO items... " />
+            <marker date="1500625863748" expanded="true" signature="546:572" ph="SELECT * FRO... items" />
           </folding>
         </state>
       </provider>
