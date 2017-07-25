@@ -1,4 +1,5 @@
 #   scikit-learn 설치
+#   http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy 사이트에서 각 패키지 찾아서 다운로드후 설치
 #   pip3 install -U scikit-learn scipy matplotlib scikit-image
 from sklearn import svm
 
@@ -34,4 +35,4 @@ for idx, answer in enumerate(label) :
     p = pre[idx]
     if p == answer : ok += 1
     total += 1
-print("정답률 : ", ok, "/", total, "=", ok/total)
+print("정답률 = ", ok, "/", total, "=", ok/total)

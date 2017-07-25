@@ -102,3 +102,5 @@ ENV/
 
 # PyCharm
 .idea/*
+4_MachineLearning/mnist/*
+4_MachineLearning/lang/*
