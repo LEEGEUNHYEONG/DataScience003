@@ -102,8 +102,9 @@ ENV/
 
 # PyCharm
 .idea/*
-4_MachineLearning/mnist/*
-4_MachineLearning/lang/*
+4_MachineLearning/0_etc/mnist/*
+4_MachineLearning/0_etc/lang/*
+
 .idea/DataScience003.iml
 .idea/misc.xml
 .idea/workspace.xml
