@@ -1,7 +1,5 @@
 #   쿠키 사용을 위한 requests 설치
 # pip3 install requests
-
-
 import requests
 from bs4 import BeautifulSoup
 

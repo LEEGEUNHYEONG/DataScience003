@@ -105,6 +105,7 @@ ENV/
 4_MachineLearning/0_etc/mnist/*
 4_MachineLearning/0_etc/lang/*
 5_DeepLearning/6/mnist/*
+7_ImageDeepLearning/image
 
 .idea/DataScience003.iml
 .idea/misc.xml
