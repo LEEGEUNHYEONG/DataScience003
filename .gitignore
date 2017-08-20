@@ -111,3 +111,12 @@ ENV/
 .idea/misc.xml
 .idea/workspace.xml
 7_ImageDeepLearning/avhash-search-output.html
+5_DeepLearning/6_/log_dir/events.out.tfevents.1502031812.LGH-HOME
+5_DeepLearning/6_/log_dir/events.out.tfevents.1502031895.LGH-HOME
+5_DeepLearning/6_/mnist/t10k-labels-idx1-ubyte.gz
+5_DeepLearning/6_/mnist/t10k-images-idx3-ubyte.gz
+5_DeepLearning/6_/mnist/train-images-idx3-ubyte.gz
+5_DeepLearning/6_/mnist/train-labels-idx1-ubyte.gz
+*.jpg
+7_ImageDeepLearning/2_CNN/image/101_ObjectCategories/BACKGROUND_Google/tmp
+7_ImageDeepLearning/2_CNN/image/5obj.npy
