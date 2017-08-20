@@ -1,6 +1,8 @@
+from PIL import Image
 from keras.models import Sequential
 from keras.layers import Convolution2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
+import os
 import numpy as np
 
 #   카테고리 지정
@@ -46,6 +48,40 @@ model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accurac
 model.fit(X_train, y_train, batch_size=32, nb_epoch=50)
 
 #   모델 평가
-score = model.evaluate(X_train, y_test)
+score = model.evaluate(X_test, y_test)
 print('loss=', score[0])
 print('accuracy=', score[1])
+
+#############################################
+#   예측하기
+pre = model.predict(X_test)
+#   예측 결과 테스트
+for i, v in enumerate(pre) :
+    pre_ans = v.argmax()    #   예측 레이블
+    ans = y_test[i].argmax()    #   정답 레이블
+    dat = X_test[i] #   이미지 데이터
+    if ans == pre_ans : continue
+    #   예측이 틀릴경우 출력
+    print("[NG]", categories[pre_ans], "!=", categories[ans])
+    print(v)
+    #   이미지 출력
+    fname = "image/error/" + str(i) + "-" + categories[pre_ans] + "-ne-" + categories[ans] + ".png"
+    dat *= 256
+    img = Image.fromarray(np.uint8(dat))
+    os.makedirs(os.path.dirname(fname), exist_ok=True)
+    img.save(fname)
+
+
+#############################################
+#   저장
+hdf5_file = "/image/5obj-model.hdf5"
+if os.path.exists(hdf5_file) :
+    #   학습된 모델 읽기
+    model.load_weights(hdf5_file)
+    print("load ok")
+else :
+    #   파일로 저장
+    model.fit(X_train, y_train, batch_size=32, epochs=50)
+    os.makedirs(os.path.dirname(hdf5_file), exist_ok=True)
+    model.save_weights(hdf5_file)
+    print("save ok")
