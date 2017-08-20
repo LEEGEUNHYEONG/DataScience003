@@ -2,30 +2,39 @@ from PIL import Image
 import numpy as np
 import os, re
 
-#    파일 경로 지정
-search_dir = "./image/101_ObjectCategories"
-cache_dir = "./image/cache_avhash"
+#   모든 폴더에서 동작하지 않음, 수동으로 폴더를 추가해줘야 동작 함
+#   폴더가 없는경우 폴더를 생성하도록 해야 함
+search_dir = "./image/101_ObjectCategories/"
+cache_dir = "./image/cache_avhash/"
 
 if not os.path.exists(cache_dir) :
     os.mkdir(cache_dir)
 
 #   이미지 데이터를 Average Hash로 변환하기
 def average_hash(fname, size = 16) :
-    fname2 = fname[len(search_dir)]
-
+    fname2 = fname[len(search_dir):]
     #   이미지 캐시
     cache_file = cache_dir + "/" + fname2.replace('/', '_') + ".csv"
+
+
     if not os.path.exists(cache_file) :
+
+        #   폴더가 없는 경우 폴더를 생성하도록 해줌
+        os.makedirs(os.path.dirname(cache_file), exist_ok=True)
+
         img = Image.open(fname)
         img = img.convert('L').resize((size, size), Image.ANTIALIAS)  #   그레이 스케일로 변환 및 리사이즈
         #    픽셀 데이터 가져오기 및  Numpy 배열로 변환, 및 2차원 배열로 변환
         pixels = np.array(img.getdata()).reshape((size, size))
         avg = pixels.mean() #   평균 구하기
         px = 1 * (pixels > avg)   #   평균보z다 크면 1, 작으면 0
-        np.savetxt(cache_file, px, fmt="%.0f", delimiter=",")
+        #   폴더가 없는경우 폴더를 생성
+
+        np.savetxt(cache_file, px, fmt="%0.f", delimiter=",")
     else:
         px = np.loadtxt(cache_file, delimiter=",")
     return px
+
 
 #   해밍 거리 구하기
 def hamming_dist(a, b) :
@@ -51,12 +60,13 @@ def find_image(fname, rate) :
         if diff_r < rate :
             yield(diff_r, fname)
 
-
 # 찾기 --- (※5)
 srcfile = search_dir + "/chair/image_0016.jpg"
+
 html = ""
 sim = list(find_image(srcfile, 0.25))
 sim = sorted(sim, key=lambda x:x[0])
+
 for r, f in sim:
     print(r, ">", f)
     s = '<div style="float:left;"><h3>[ 차이 :' + str(r) + '-' + \
