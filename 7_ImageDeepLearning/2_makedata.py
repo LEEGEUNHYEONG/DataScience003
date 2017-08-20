@@ -1,4 +1,4 @@
-import glob
+import os, glob
 
 import numpy as np
 from PIL import Image
